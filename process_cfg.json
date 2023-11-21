@@ -1,0 +1,23 @@
+{
+    "resize_width" : 2,
+    "resize_height" : 2120,
+    "low_ylim" : 65,
+    "high_ylim" : 1965,
+    "nfft" : 11025,
+    "fig_size" : [1,21.2],
+    "time_split" : 0.2,
+    "amp_umbral" : 0.5, 
+    "models_path" : "models",
+    "trained_models_path":"models/trained",
+    "unprocessed_path" : "datasets/unprocessed",
+    "processed_path" : "datasets/processed",
+    "exchanged_path" : "datasets/exchanged",
+    "model_name" : "Param_RNA_V0.0.1",
+    "model_desc" : "conv 1D model with mfcc audio samples",
+    "generator_split_mode" : "beat",
+    "gen_batch_split_mode" : "beat",
+    "prediction_batch_size" : 6,
+    "prediction_perc_tol" : 80,
+    "gen_hop_length" : 512,
+    "test_hop_length" : 512
+}

@@ -1,0 +1,4 @@
+datasets/*
+
+!datasets/test_audios/
+!datasets/test_audios/**
